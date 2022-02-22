@@ -38,7 +38,7 @@ Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter progr
 </p>
 <br />
 <br />
-## Podešavanje testova  
+## Podešavanje testova<br />
 Testovi su podešeni na jednostavan način - svaki zahtjev koji se šalje zapravo je običan GET zahtjev HTTP protokola koji se šalje na index stranicu svakog od alata za verzioniranje koda. Nakon toga je podešena grupa niti koja pravi 500 niti (korisnika) s ramp-up periodom od 10 sekundi. U svakom testu se koristi isti korisnik te se svi testovi samo jednom ponavljaju. Rezultati koji se spremaju su detalji svakog zahtjeva (poput veličina u bitovima, poslani bitovi, broj pogrešaka ako su se dogodile) te detalji odziva zahtjeva (povratni kod i povratna poruka, npr. 200 OK za svaki uspiješan odziv na zahtjev).<br />
 <br />
 Uz detalje zahtjeva i odziva, sprema se vrijeme potrebno za dobivanje odziva, prosječno vrijeme odziva, throughput (propusnost) te devijacija vremena odziva koje je za svaki od alata u nastavku analiziran.
