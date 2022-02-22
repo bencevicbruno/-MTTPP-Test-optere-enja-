@@ -25,7 +25,7 @@ Testovi opterećenja su testovi u kojem se programska podrška namjerno gura do 
 <br />
 <br />
 <p align="center">
-  <img width="460" src="https://jmeter.apache.org/images/logo.svg">
+  <img width="250" src="https://jmeter.apache.org/images/logo.svg" style="background-color: rgb(255, 255, 255);">
 </p>
 <br />
 <br />
@@ -36,7 +36,6 @@ Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter progr
   <img src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png"><br />
   <p>Izgled korisničkog sučelja JMeter programa.</p>
 </p>
-<br />
 <br />
 
 ## Podešavanje testova  
