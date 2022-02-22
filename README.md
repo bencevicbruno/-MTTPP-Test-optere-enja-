@@ -42,3 +42,23 @@ Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter progr
 Testovi su podešeni na jednostavan način - svaki zahtjev koji se šalje zapravo je običan GET zahtjev HTTP protokola koji se šalje na index stranicu svakog od alata za verzioniranje koda. Nakon toga je podešena grupa niti koja pravi 500 niti (korisnika) s ramp-up periodom od 10 sekundi. U svakom testu se koristi isti korisnik te se svi testovi samo jednom ponavljaju. Rezultati koji se spremaju su detalji svakog zahtjeva (poput veličina u bitovima, poslani bitovi, broj pogrešaka ako su se dogodile) te detalji odziva zahtjeva (povratni kod i povratna poruka, npr. 200 OK za svaki uspiješan odziv na zahtjev).<br />
 <br />
 Uz detalje zahtjeva i odziva, sprema se vrijeme potrebno za dobivanje odziva, prosječno vrijeme odziva, throughput (propusnost) te devijacija vremena odziva koje je za svaki od alata u nastavku analiziran.
+
+## Analiza rezultata
+Analiza reultata se temelji na očitavanjima vrijednosti s grafova. Na svakom grafova nalaze se 4 istočkane linije. Plava linija označva srednje vrijeme odziva, ljubičasta medijan, a crvena boja devijaciju vremena odziva. Zelena boja označava propusnost podataka. Slike svih rezultata se nalaze [ovdje](https://github.com/bencevicbruno/MTTPP_Test_opterecenja/tree/main/test_results).
+
+<br />
+<br />
+<p align="center">
+  <img src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_results.png"><br />
+  <p>Primjer dobivenih rezultata.</p>
+</p>
+<br />
+
+### BitBucket, Github, Google Cloud
+Rezultati testiranja BitBucketa, Githuba i Google Clouda su podjednaki. Svakoj uslugi se nakon nekog vremena stabilizira propusnost koja postaje skoro konstanta. Daleko najbrži prosječni odziv ima Github (504ms), zatim BitBucket(663ms). GoogleCloud ima najsporiji odziv(12945ms). Napomena za Google Cloud: svako ponovno testiranje je davalo drastično različite rezultate te se izmjereno vrijeme odgovora na zahtjev ne može uzimati kao reprezentativan uzorak. Moguće objašnjenje devijacije vremena između mjerenja mogu biti loša internetska mreža ili neke nadogradnje unutar Google Cloud servisa (Google Cloud ima veći opseg usluga koje nudi).
+
+### Gitlab, SourceForge
+Gitlabovo prosječno vrijeme odziva je 422ms, a SourceForgeovo je 249ms. Iako su obje usluga veoma brze, prate jedan zajednički trend, a to je odbijanje zahtjeva nakon nekog vremena (uglavnom nakon 200. zahtjeva, počinju se odbijati). Razlog tome mogu biti sigurnosne mjere obje usluge. Kako su SourceForge i Gitlab više dostupni i usmjereni na neprofesionalne korisnike, veća je mogućnost da učestali zahtjevi mogu biti malicioznih namjera stoga se odbijaju.
+
+## Zaključak
+Kao što bi bilo očekivano, Google Cloud, Github i BitBucket kao proizvodi većih tvrtki imaju bolje performanse i bolju propusnost podataka jer očekuju da veći projekti pri "pushanju na remote" šalju više podataka za razliku od SourceForge-a i GitLab-a čiji projekti su ograničene veličine te samim time propusnost podataka je smanjena.
