@@ -19,3 +19,7 @@ Bitbucket je alat za verzioniranje tvrtke Atlassian koji je nastao 2008. godine.
 SourceForge je besplatni web alat za verzioniranje koda koji je potpuno besplatan za sve korisnike. Uz verzioniranje koda, omogućava praćenje pogrešaka, mirroranje preuzimanja, wiki-stranicu za dokumentaciju, forume za korisnike te sučelje za recenziranje projekata. Od svih alata za verzioniranje, najpoznatiji je u zajednici programera koji prave modifikacije za video igre.
 ### Google Cloud
 Platforma Google Cloud-a nije striktno namjenjena za verzioniranje koda. Uz to, služi kao baza podataka, analitički alat te alat za strojno učenje. Logistički gledano, sve usluge koje nudi Google usko su integrirane pod Google Cloud.
+
+## Testovi opterećenja
+
+![Apache Jmeter logo](https://jmeter.apache.org/images/logo.svg)
