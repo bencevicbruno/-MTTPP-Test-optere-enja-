@@ -21,6 +21,12 @@ SourceForge je besplatni web alat za verzioniranje koda koji je potpuno besplata
 Platforma Google Cloud-a nije striktno namjenjena za verzioniranje koda. Uz to, služi kao baza podataka, analitički alat te alat za strojno učenje. Logistički gledano, sve usluge koje nudi Google usko su integrirane pod Google Cloud.
 
 ## Testovi opterećenja
-Testovi opterećenja su testovi u kojem se programska podrška namjerno gura do ekstremnih uvijeta na način da se optereti podacima odnosno zahtjevima. Pri takvom testiranju vrši se automatsko testiranje za koje je potreban nekakav alat koji može kreirati virtualne korisnike te podržava kreiranje skripti za svakog korisnika (popis koraka koji se automatski izvrašavju pri slanju zahtjeva, npr. popunjavanje POST zahtjeva HTTPa nekim podacima). Iako su rijetki slučajevi da se programska podrška nalazi u krajnjem slučaju preopterećenosti pri normalnim uvijetima, do takvih uvijeta se dolazi i malicioznim namjerama korisnika koji npr. mogu izvršiti DDOS napad na neki server. U tom slučaju naša programska podrška bi trebala implementirati odbijanje previše zahtjeva jednog klijenta odjednom.<br />
-Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov Jmeter program napravljen u Java programskom jeziku koji daje jednostavno grafičko korisničko sučelje da kreiranje testova opterećenja.<br />
+Testovi opterećenja su testovi u kojem se programska podrška namjerno gura do ekstremnih uvijeta na način da se optereti podacima odnosno zahtjevima. Pri takvom testiranju vrši se automatsko testiranje za koje je potreban nekakav alat koji može kreirati virtualne korisnike te podržava kreiranje skripti za svakog korisnika (popis koraka koji se automatski izvrašavju pri slanju zahtjeva, npr. popunjavanje POST zahtjeva HTTPa nekim podacima). Iako su rijetki slučajevi da se programska podrška nalazi u krajnjem slučaju preopterećenosti pri normalnim uvijetima, do takvih uvijeta se dolazi i malicioznim namjerama korisnika koji npr. mogu izvršiti DDOS napad na neki server. U tom slučaju naša programska podrška bi trebala implementirati odbijanje previše zahtjeva jednog klijenta odjednom.
+<br />
+<br />
 ![Apache Jmeter logo](https://jmeter.apache.org/images/logo.svg)
+<br />
+<br />
+Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov Jmeter program napravljen u Java programskom jeziku koji daje jednostavno grafičko korisničko sučelje da kreiranje testova opterećenja.
+<br />
+<br />
