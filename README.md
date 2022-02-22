@@ -34,7 +34,7 @@ Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter progr
 <br />
 <p align="center">
   <img src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png"><br />
-  Izgled korisničkog sučelja JMeter programa.
+  <p>Izgled korisničkog sučelja JMeter programa.</p>
 </p>
 <br />
 <br />
