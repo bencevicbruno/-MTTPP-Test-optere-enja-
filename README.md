@@ -5,6 +5,7 @@ Ovaj repozitorij sadrži potrebne projektne datoteke za analizu testova optereć
 - Bitbucket
 - SourceForge
 - Google Cloud
+
 Testovi su obavljeni koristeći alat Jmeter.
 
 ## Alati za verzioniranje koda
