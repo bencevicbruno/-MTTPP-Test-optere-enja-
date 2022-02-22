@@ -29,6 +29,6 @@ Testovi opterećenja su testovi u kojem se programska podrška namjerno gura do 
 </p>
 <br />
 <br />
-Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov Jmeter program napravljen u Java programskom jeziku koji daje jednostavno grafičko korisničko sučelje da kreiranje testova opterećenja.
+Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter program napravljen u Java programskom jeziku koji daje jednostavno grafičko korisničko sučelje da kreiranje testova opterećenja.
 <br />
 <br />
