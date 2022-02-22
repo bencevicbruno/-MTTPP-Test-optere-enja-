@@ -25,7 +25,7 @@ Testovi opterećenja su testovi u kojem se programska podrška namjerno gura do 
 <br />
 <br />
 <p align="center">
-  <img width="250" src="https://jmeter.apache.org/images/logo.svg" style="background-color: rgb(255, 255, 255);">
+  <img width="250" src="https://jmeter.apache.org/images/logo.svg" style="background-color:white;">
 </p>
 <br />
 <br />
