@@ -33,6 +33,6 @@ Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter progr
 <br />
 <br />
 <p align="center">
-  <img width="460" src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png">
+  <img width="460" src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png"><br />
   Izgled korisničkog sučelja JMeter programa.
 </p>
