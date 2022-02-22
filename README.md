@@ -32,3 +32,7 @@ Testovi opterećenja su testovi u kojem se programska podrška namjerno gura do 
 Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter program napravljen u Java programskom jeziku koji daje jednostavno grafičko korisničko sučelje da kreiranje testova opterećenja.
 <br />
 <br />
+<p align="center">
+  <img width="460" src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png">
+  Izgled korisničkog sučelja JMeter programa.
+</p>
