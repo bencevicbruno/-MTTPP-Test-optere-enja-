@@ -33,6 +33,12 @@ Testovi opterećenja za ovaj rad su napravljeni koristeći Apacheov JMeter progr
 <br />
 <br />
 <p align="center">
-  <img width="460" src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png"><br />
+  <img src="https://github.com/bencevicbruno/MTTPP_Test_opterecenja/blob/main/README/jmeter_gui.png"><br />
   Izgled korisničkog sučelja JMeter programa.
 </p>
+<br />
+<br />
+### Podešavanje testova
+Testovi su podešeni na jednostavan način - svaki zahtjev koji se šalje zapravo je običan GET zahtjev HTTP protokola koji se šalje na index stranicu svakog od alata za verzioniranje koda. Nakon toga je podešena grupa niti koja pravi 500 niti (korisnika) s ramp-up periodom od 10 sekundi. U svakom testu se koristi isti korisnik te se svi testovi samo jednom ponavljaju. Rezultati koji se spremaju su detalji svakog zahtjeva (poput veličina u bitovima, poslani bitovi, broj pogrešaka ako su se dogodile) te detalji odziva zahtjeva (povratni kod i povratna poruka, npr. 200 OK za svaki uspiješan odziv na zahtjev).<br />
+<br />
+Uz detalje zahtjeva i odziva, sprema se vrijeme potrebno za dobivanje odziva, prosječno vrijeme odziva, throughput (propusnost) te devijacija vremena odziva koje je za svaki od alata u nastavku analiziran.
